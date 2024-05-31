@@ -1,0 +1,52 @@
+*{
+    font-family: 'Montserrat Alternates';
+    color: white;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: white;
+}
+
+body{
+    background-color: rgba(61, 169, 86, 1);
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+/*
+                                                HEADER
+
+*/
+
+header{
+    background-color: #357A45;
+    padding: 10px;
+    border-radius: 110px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+header ul li{
+    float: left;
+}
+
+header ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
