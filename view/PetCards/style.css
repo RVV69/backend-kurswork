@@ -1,0 +1,70 @@
+/*                              Card                                    */
+.pet-wrapper {
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.pet-card {
+    display: flex;
+    gap: 40px
+}
+
+.pet-card > div {
+    width: calc(100% / 2);
+}
+
+.pet-img {
+    width: 100%;
+    border-radius: 45px;
+    margin-top: 10px;
+}
+
+.pet-name {
+    margin-bottom: 20px;
+}
+
+.bread-crisp {
+    color: #A1DEAF;
+}
+
+.share-pet {
+    color: #A1DEAF;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.share {
+    display: inline;
+    width: 45px;
+    vertical-align: middle;
+}
+
+.pet-text {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.group-wrap {
+    display: inline-block;
+}
+
+.pet-adopt {
+    background-color: #357A45;
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    max-width: 100%;
+    height: 70px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+@media (max-width: 959px) {
+    .pet-card {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .pet-card > div {
+        width: 100%;
+    }
+}

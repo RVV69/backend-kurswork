@@ -1,0 +1,138 @@
+main {
+    margin-top: 80px;
+}
+
+main h1 {
+    margin-bottom: 40px;
+}
+
+.content-col-2,
+.content-col-3 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 5px;
+}
+
+.content-col-3 > * {
+    width: calc(100% / 3);
+}
+
+.food-img,
+.content-img {
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.food-img {
+    max-height: 745px;
+    background-color: white;
+}
+
+.content-img {
+    width: 45%;
+    height: 475px;
+    min-width: 350px;
+}
+
+.content-item p {
+    margin: 12px 0;
+}
+
+.content-item h2 {
+    margin-bottom: 30px;
+}
+
+.content-text {
+    flex: 1;
+}
+
+@media (max-width: 959px) {
+    .content-col-2,
+    .content-col-3 {
+        flex-direction: column;
+    }
+
+    .content-img,
+    .food-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 599px) {
+    .content-item {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 959px) {
+    .petstandart-row-2-col {
+        flex-direction: column;
+    }
+    .petstandart-img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 599px) {
+
+    .petstandart-item {
+        margin-bottom: 60px;
+    }
+}
+
+.petstandart-item {
+    margin-bottom: 150px;
+}
+
+.petstandarts-item ol li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.petstandart-item p {
+    margin: 12px 0;
+}
+
+.petstandart-item h2 {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 599px) {
+
+    .petstandart-item {
+        margin-bottom: 60px;
+    }
+}
+
+.petstandart-img {
+    width: 45%;
+    height: 550px;
+    min-width: 350px;
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.petstandart-text {
+    flex: 1;
+}
+
+.petstandart-row-2-col {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 959px) {
+    .petstandart-row-2-col {
+        flex-direction: column;
+    }
+    .petstandart-img {
+        width: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,113 @@
+.hero-banner.сhoose-friend-banner {
+    position: relative;
+    margin-top: -109px;
+    margin-bottom: 60px;
+    background: url('/main-page-photo/find-animal-bg.png') left / 100% 100% no-repeat;
+    background-color: #75B9A6;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    padding-right: 0;
+}
+
+.сhoose-friend-banner .main-text {
+    flex: 1;
+    padding-top: 160px;
+    padding-right: 30px;
+}
+.сhoose-friend-banner h1{
+    margin-bottom: 30px;
+    line-height: 1.0;
+}
+
+.сhoose-friend-banner .hero-image {
+    width: 45%;
+    min-width: 550px;
+}
+
+.сhoose-friend-banner:before {
+    content: '';
+    position: absolute;
+    bottom: -57px;
+    right: 0;
+    height: 200px;
+    width: 15%;
+    min-width: 180px;
+    background: url('/main-page-photo/tail-icon.png') right bottom / contain no-repeat;
+}
+
+.сhoose-friend-banner img {
+    width: 100%;
+}
+
+@media (max-width: 1280px) {
+    .hero-banner.сhoose-friend-banner {
+        margin-top: -96px;
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 30px;
+        padding-right: 60px;
+    }
+    .сhoose-friend-banner .main-text {
+        width: 100%;
+        padding: 0 0 80px 0;
+    }
+    .сhoose-friend-banner .hero-image {
+        padding-top: 120px;
+        min-width: 320px;
+    }
+
+    .сhoose-friend-banner .hero-image img {
+        border-radius: 26%;
+    }
+}
+@media (max-width: 959px) {
+    .hero-banner.сhoose-friend-banner {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 599px) {
+    .hero-banner.сhoose-friend-banner {
+        padding-right: 15px;
+    }
+}
+/*                                                      */
+.rules-wrapper {
+    margin: 60px 0;
+}
+
+.rules-about-photo {
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    border-radius: 55px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.rules-about {
+    margin: 30px 0 60px 0;
+    display: flex;
+    align-items: center;
+}
+
+.rules-about-text{
+    font-size: 24px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+@media (max-width: 1280px) {
+    .rules-about {
+        flex-direction: column;
+    }
+    .rules-about-text {
+        margin: 30px 0 0 0;
+    }
+}
+
+@media (max-width: 599px) {
+    .rules-about-photo {
+        height: 300px;
+    }
+}
