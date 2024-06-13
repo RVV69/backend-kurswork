@@ -1,0 +1,32 @@
+main {
+    margin: 120px 0;
+}
+
+.change-table,
+.change-table th,
+.change-table td {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.change-table th {
+    text-align: center;
+    vertical-align: center;
+}
+
+.change-table {
+    min-width: 600px;
+}
+
+.news-info-short {
+    max-height: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+}
+
+.table-scroll-wrapper {
+    overflow-x: auto;
+}

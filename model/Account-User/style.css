@@ -1,0 +1,73 @@
+.account-wrapper {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-wrapper button {
+    padding: 5px 15px;
+}
+
+.user-img {
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    width: 600px;
+    max-width: 100%;
+    height: 600px;
+    margin-bottom: 35px;
+}
+
+.changes-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 216px;
+    height: 216px;
+    border-radius: 50%;
+    background: url('/main-page-photo/pen.png') center / contain no-repeat;
+    background-color: rgba(61, 169, 86, 1);
+    border: none;
+}
+
+.exit-button {
+    background-color: #973232;
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+    min-height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.change-news-button {
+    background-color: #357A45;
+    width: 85%;
+    border: none;
+    margin-top: 30px;
+    min-height: 60px;
+    border-radius: 20px;
+}
+
+.change-pets-button {
+    background-color: #357A45;
+    width: 85%;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    min-height: 60px;
+    border-radius: 20px;
+}
+
+@media (max-width: 959px) {
+    .user-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .changes-button {
+        height: 60px;
+        width: 60px;
+    }
+}
